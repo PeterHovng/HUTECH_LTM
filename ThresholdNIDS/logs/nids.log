@@ -1,0 +1,5 @@
+[2025-12-26 09:53:32] INFO  NIDS Threshold TCP Server started on port 9090
+[2025-12-26 09:53:32] INFO  UDP Log Collector started on port 5514 (format: ip|event|detail  OR raw text)
+[2025-12-26 09:53:32] INFO  Config: port=9090, windowMs=10000, staticThreshold=20, blockBaseMs=30000, maxBlockMs=600000, adaptiveEnabled=false, adaptiveFactor=3, refreshMs=1000, collectorEnabled=true, collectorPort=5514, maxEvents=2000
+[2025-12-26 09:53:32] INFO  Commands: stats | blocked | whitelist | whitelist add <ip> | whitelist remove <ip> | blacklist | blacklist add <ip> | blacklist remove <ip> | unblock <ip> | exit
+[2025-12-26 09:53:42] INFO  Whitelist removed (GUI): 127.0.0.1
